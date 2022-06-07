@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "StackKit",
+    name: "StackKitRusssshark",
     platforms: [ .iOS(.v9)],
     products: [
         .library(
-            name: "StackKit",
+            name: "StackKitRusssshark",
             targets: ["StackKit"]),
     ],
     dependencies: [
@@ -20,7 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "StackKit",
+            name: "StackKitRusssshark",
             dependencies: ["ConstraintKit"]),
         .testTarget(
             name: "StackKitTests",

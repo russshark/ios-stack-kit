@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'StackKit'
+  s.name             = 'StackKitRusssshark'
   s.version          = '0.1.0'
   s.summary          = 'The power of SwiftUI with UIKit'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 StackKit harnesses the power of UIStackView's and Swift's ResultBuilders together. This allows you to easily build declarative UI while only using UIKit. StackKit is a great solution for anyone looking to level up their programmatic UI without having to convert an existing project to SwiftUI. Its API design is closely matched to SwiftUI making it effortless to pick up without having to accommodate any reactive programming patterns.
                        DESC
 
-  s.homepage         = 'https://github.com/gymshark/StackKit'
+  s.homepage         = 'https://github.com/russshark/ios-stack-kit'
   s.screenshots      = 'https://github.com/gymshark/ios-stack-kit/raw/master/Assets/example-1.png', 'https://github.com/gymshark/ios-stack-kit/raw/master/Assets/example-2.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gymshark' => 'engineering@gymshark.com' }
-  s.source           = { :git => 'https://github.com/gymshark/ios-stack-kit', :tag => s.version.to_s }
+  s.author           = { 'russshark' => 'russell.warwick@gymshark.com' }
+  s.source           = { :git => 'https://github.com/russshark/ios-stack-kit', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
