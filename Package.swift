@@ -12,9 +12,11 @@ let package = Package(
             targets: ["StackKit"]),
     ],
     dependencies: [
-        .package(name: "ConstraintKit",
-                 url: "https://github.com/gymshark/ios-constraint-kit.git",
-                 .upToNextMinor(from: "0.0.2"))
+        .package(
+            name: "ConstraintKit",
+            url: "https://github.com/russshark/ios-constraint-kit.git",
+            .branch("russshark/ios-9-fix")
+        )
     ],
     targets: [
         .target(
